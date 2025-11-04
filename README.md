@@ -12,5 +12,3 @@ Conteúdo incluído:
 - CSS (main, dark, high contrast)
 - JS modular (router, templates, validation, ui, masks)
 - GitHub workflow placeholder
-
-Valide a acessibilidade e o W3C e me peça alterações se necessário.
