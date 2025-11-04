@@ -1,0 +1,5 @@
+
+/* high-contrast */
+:root{--color-bg:#000;--color-text:#fff;--color-primary:#000;--accent1:#ffff00;--accent2:#00ffff}
+body{background:var(--color-bg);color:var(--color-text)}
+.nav-list a{color:var(--color-text);background:transparent;border:2px solid var(--accent1);padding:6px 8px}

@@ -1,0 +1,6 @@
+
+/* dark mode */
+:root{--color-bg:#081226;--color-text:#e6eef8;--color-primary:#071026}
+body{background:var(--color-bg);color:var(--color-text)}
+.nav-list a{color:var(--color-text)}
+.modal-dialog{background:#0b1220;color:var(--color-text)}

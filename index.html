@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Organização Exemplo — Final</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/high-contrast.css" id="high-contrast-stylesheet" disabled>
+  <link rel="stylesheet" href="css/dark.css" id="dark-stylesheet" disabled>
+</head>
+<body class="site" data-theme="default">
+  <a class="skip-link" href="#app">Pular para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#" data-link="home" aria-label="Ir para Início"><img src="img/logo.png" alt="Logotipo" width="120"></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <button class="btn-hamburger" aria-expanded="false" aria-controls="nav-list" id="btn-hamburger" aria-label="Abrir menu (móvel)">
+          <span class="burger-line"></span><span class="sr-only">Abrir menu</span>
+        </button>
+        <ul class="nav-list" id="nav-list" role="menubar">
+          <li role="none"><a role="menuitem" href="#" data-link="home">Início</a></li>
+          <li role="none" class="has-sub">
+            <a role="menuitem" href="#" data-link="projetos" aria-haspopup="true" aria-expanded="false">Projetos</a>
+          </li>
+          <li role="none"><a role="menuitem" href="#" data-link="cadastro">Cadastro</a></li>
+        </ul>
+      </nav>
+      <div class="access-controls" role="region" aria-label="Controles de acessibilidade">
+        <button id="toggle-dark" class="btn" aria-pressed="false">Modo Escuro</button>
+        <button id="toggle-contrast" class="btn" aria-pressed="false">Alto Contraste</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="main" role="main">
+    <div id="app" class="view" tabindex="-1" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© 2025 Organização Exemplo</p>
+    </div>
+  </footer>
+
+  <div id="toast-area" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- JS modules -->
+  <script src="js/masks.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/templates.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
